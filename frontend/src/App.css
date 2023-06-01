@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+  background-image: url("./images/istockphoto.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.app-heading {
+  color: #6e38a1;
+  font-size: 25px;
+  padding: 10px;
+}
+.app_user_container {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25rem;
+  margin-bottom: 1rem;
+}
+.app_user_details {
+  padding: 2rem 1rem;
+  margin: 0px 40px;
+  border-radius: 9px;
+  box-shadow: 5px 14px 20px rgba(0.1, 0.1, 0.1, 0.2);
+  background: #ffffff;
+}
+.user_details {
+  line-height: 1.5;
+  margin: 28px 20px 0px 4px;
+}
+.user_details_lab {
+  font-size: 15px;
+  color: #673ab7;
+  font-weight: 600;
+  display: flex;
+  line-height: 1.3;
+  margin: 0 0 4px 28px;
+}
+.user_details_input {
+  width: 89%;
+  height: 40px;
+  background-color: #f3f2fa;
+  border: 1px solid #d8d4ed;
+  color: #341d5c;
+}
+.pic_preview {
+  border: solid 1px #cccccc;
+  cursor: pointer;
+  height: 150px;
+  max-width: 150px;
+  margin: 10px 60px 5px 0;
+}
+
+.field_pic .field_pic_input {
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f3f2fa;
+  margin: 0 26px 0 16px;
+}
+.field_pic_input .user_details_input {
+  width: auto;
+  height: auto;
+  background-color: #f3f2fa;
+  border: none;
+  bottom: 63px;
+  position: relative;
+}
+.field_intrst_input .user_details_input {
+  height: 100px;
+}
+.required_field {
+  color: #ff0000;
+  padding-left: 5px;
+}
+.ud_error_message {
+  color: #ff0000;
+  font-size: 12px;
+  font-style: italic;
+  float: left;
+  margin-left: 27px;
+}
+.form_submit input {
+  background: #7e57c2;
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.05em;
+  padding: 0.875rem 1.75rem;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s;
+  border: none;
+  cursor: pointer;
+  width: 60%;
+}
+.form_submit input:hover {
+  background: #6e38a1;
+}
+.form_submit {
+  margin: 25px 0 0 0;
+}
